@@ -2,6 +2,40 @@
   min-height: 640px;
 }
 
+.u-section-1 .u-video-1 {
+  width: 1142px;
+  height: 640px;
+}
+
 .u-section-1 .embed-responsive-1 {
   position: absolute;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 528px;
+  }
+
+  .u-section-1 .u-video-1 {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 460px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 259px;
+  }
 }

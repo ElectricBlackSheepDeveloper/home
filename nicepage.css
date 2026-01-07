@@ -46479,6 +46479,30 @@ a.u-link.u-text-hover-color-var:hover {
   .u-footer .u-list-1 {
     width: 340px;
   }
+
+  .u-footer .u-text-2 {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .u-footer .u-text-3 {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .u-footer .u-text-4 {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .u-footer .u-text-5 {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
 }
 
  /*begin-variables base-font-size*/ 
