@@ -36,7 +36,7 @@
             try {
                 // Free text-to-image API call via Puter.js
                 //const imageElement = await puter.ai.txt2img('angel wings', false);
-                const imageElement = await puter.ai.txt2img(prompt, { w: 1024, h: 1024 });
+                const imageElement = await puter.ai.txt2img(prompt, { width: 1024, height: 1024 });
                 
                 resultDiv.innerHTML = ""; // Clear status text
                 resultDiv.appendChild(imageElement); // Append the generated <img> tag
